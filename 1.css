@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+* body{
+    margin:1rem;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: aliceblue;
+}
+
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 1rem;
+    filter: drop-shadow(0 0 0.5rem #6495ed)
+}
+
+.personal, .skills, .specializations{
+    padding: 1rem;
+    line-height: 2;
+}
+
+.current{
+    background-color: #6495ed;
+    color: #b5c3d2;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.grey{
+    color: #9098a1;
+}
+
+.d2022{
+    color: #6495ed;
+}
+
+.education, .skillsDetail, .projects{
+    line-height: 3;
+    padding: 1rem;
+}
+
+
+.left, .education, .skillsDetail, .projects{
+    background-color:#b5c3d2
+}
+
+ .topLeftImg{
+    position: relative;
+ }
+
+ .topLeftImg img0{
+    width :100%;
+ }
+
+ .topLeftImg h2{
+    position: absolute;
+    bottom: 0;
+ }
+
+ footer{
+    margin: 1rem;
+    background-color:#b5c3d2;
+    padding: 2rem 0;
+    text-align: center;
+    filter: drop-shadow(0 0 0.5rem #6495ed)
+ }
